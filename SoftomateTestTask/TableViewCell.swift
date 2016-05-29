@@ -1,0 +1,26 @@
+//
+//  TableViewCell.swift
+//  SoftomateTestTask
+//
+//  Created by Mikhail Zhadko on 5/25/16.
+//  Copyright © 2016 Mikhail Zhadko. All rights reserved.
+//
+
+import UIKit
+
+class TableViewCell: UITableViewCell {
+    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var icon: UIImageView!
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+
+    override func setSelected(selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+
+}
